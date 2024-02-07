@@ -11,6 +11,7 @@ namespace Vector_Calculator
             
             // This should be 0, 4, 0
             Console.WriteLine(Vector.Add(test1, test2));
+            Console.WriteLine(test1.GetDirection());
         }
     }
 }

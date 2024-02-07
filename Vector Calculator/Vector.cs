@@ -24,6 +24,8 @@ namespace Vector_Calculator
         }
 
         public float GetMagnitude()
+
+
         {
             // ADD CODE HERE, THEN REMOVE BELOW LINE
             throw new NotImplementedException();
@@ -31,20 +33,18 @@ namespace Vector_Calculator
 
         public float GetDirection()
         {
-            // ADD CODE HERE, THEN REMOVE BELOW LINE
-            throw new NotImplementedException();
+            return ((float)(MathF.Atan(x / y) * 180 / Math.PI));
         }
 
         public static Vector Add(Vector v1, Vector v2)
         {
-            // ADD CODE HERE, THEN REMOVE BELOW LINE
-            throw new NotImplementedException();
+            // <2, 3, 4> + <6, 2, 6> = <8, 5, 10>
+            return new Vector(v1.x + v2.x, v1.y + v2.y, v1.z + v2.z);
         }
 
         public static Vector Negate(Vector v)
         {
-            // ADD CODE HERE, THEN REMOVE BELOW LINE
-            throw new NotImplementedException();
+            return new Vector(y, 2 * -1 , x );
         }
 
         public static Vector Subtract(Vector v1, Vector v2)
