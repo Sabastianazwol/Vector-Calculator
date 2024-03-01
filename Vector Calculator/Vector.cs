@@ -85,8 +85,7 @@ namespace Vector_Calculator
 
         public static Vector ProjectOnto(Vector v1, Vector v2)
         {
-            // ADD CODE HERE, THEN REMOVE BELOW LINE
-            throw new NotImplementedException();
+            return new Vector (Vector .DotProduct (v1, v2) (Math.Pow)(v2.GetMagnitude(), 2 ) * scalar));
         }
     }
 }
